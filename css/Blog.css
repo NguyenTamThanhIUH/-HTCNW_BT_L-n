@@ -1,0 +1,105 @@
+/*nav*/
+#menu ul {
+
+    margin-left: -300px;
+
+}
+
+#menu ul li a:hover {
+
+    color: rgb(90, 125, 156);
+    transform: scale(1.1);
+}
+
+#menu ul li a {
+    text-align: center;
+}
+
+nav container-fluid {
+    padding: 10px;
+}
+
+nav .collapse {
+    justify-content: center;
+}
+
+.nav-item {
+
+    width: 100px;
+
+
+}
+.gio{
+    padding-left: 20px;
+    position: relative;
+
+}
+#soluong {
+    position: absolute;
+    
+    right: 15px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+.nav1 {
+    margin-bottom: -40px;
+}
+
+.navbar-collapse {
+    margin-bottom: -40px;
+}
+
+/*Section*/
+.menusec{
+    list-style-type: none;
+    display: flex;
+}
+.menusec li {
+    text-decoration: none;
+    padding: 10px ;
+    padding-top: 15px;
+   
+   
+}
+a{
+    text-decoration: none;
+}
+.menusec li:hover  {
+    color: rgb(90, 125, 156);
+    transform: scale(1.1);
+}
+#baivietnew{
+    float: left;
+    width: 24%;
+    padding: 10px 10px 0px 20px;
+}
+#baivietnew img{
+    width: 100px;
+    height: 100px;
+} 
+#chuyentrang li a{
+    border: none;
+}
+/* footer */
+.ft1{
+    line-height: 5px;
+}
+.ht a{
+    text-decoration: none;
+    color: white;
+
+}
+/**/
+.navbar-nav li .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    right: -31px;
+    background-color: rgb(240, 234, 234);
+}
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}

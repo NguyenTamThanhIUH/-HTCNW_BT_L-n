@@ -1,0 +1,81 @@
+/* Nav */
+#menu ul{
+    
+    margin-left: -300px;
+    
+    }
+    #menu ul li a:hover{
+        
+        color: rgb(90, 125, 156);
+    }
+    #menu ul li a{
+        text-align: center;
+    }
+    nav .container-fluid {
+        padding: 10px;
+    }
+    nav .collapse{
+        justify-content: center;
+    }
+    .nav-item{
+        
+        width: 100px;
+    
+        
+    }
+    #soluong{
+        position: absolute;
+      top:40px;
+            right: 2px;
+        font-weight: bold;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        color:white;
+        background-color: red;
+        border-radius: 50%;
+    }
+    
+    
+    .nav1{
+        margin-bottom: -40px;
+        }
+        .navbar-collapse{
+            margin-bottom: -40px;
+        }
+        .gio{
+            padding-left: 10px;
+        }
+        .gio:hover{
+            color: red;
+        }
+        #thongtindh li{
+            list-style: none;
+            
+        }
+
+        /* section */
+        #sp ul{
+            line-height: 15px;
+
+        }
+/* footer */
+.ft1{
+    line-height: 5px;
+}
+.ht a{
+    text-decoration: none;
+    color: white;
+
+}
+/**/
+.navbar-nav li .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    right: -31px;
+    background-color: rgb(240, 234, 234);
+}
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}

@@ -1,0 +1,320 @@
+/*nav*/
+#menu ul {
+
+    margin-left: -300px;
+
+}
+
+#menu ul li a:hover {
+
+    color: rgb(90, 125, 156);
+    transform: scale(1.1);
+}
+
+#menu ul li a {
+    text-align: center;
+}
+
+nav container-fluid {
+    padding: 10px;
+}
+
+nav .collapse {
+    justify-content: center;
+}
+
+.nav-item {
+
+    width: 100px;
+
+
+}
+.gio{
+    padding-left: 20px;
+    position: relative;
+
+}
+#soluong {
+    position: absolute;
+    
+    right: 15px;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+.nav1 {
+    margin-bottom: -40px;
+}
+
+.navbar-collapse {
+    margin-bottom: -40px;
+}
+/*Section*/
+.menusec{
+    list-style-type: none;
+    display: flex;
+}
+.menusec li {
+    text-decoration: none;
+    padding: 10px ;
+    padding-top: 15px;
+   
+   
+}
+a{
+    text-decoration: none;
+}
+.menusec li:hover  {
+    color: rgb(90, 125, 156);
+    transform: scale(1.1);
+}
+/*card*/
+.card-avatar img {
+    width: 200px;
+
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card {
+    width: 250px;
+    height: 280px;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease, opacity .2s ease;
+}
+#chuyentrang li a{
+    border: none;
+}
+
+/*Image*/
+.card-avatar {
+    height: 100px;
+    width: 100px;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+}
+
+.card-avatar img {
+    width: 120%;
+    height: 110%;
+
+
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.card-subtitle {
+    color: #859ba8;
+    font-size: 0.8em;
+}
+/*Text*/
+.card-title {
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.card-subtitle {
+    color: #859ba8;
+    font-size: 0.8em;
+}
+/*footer*/
+.ft1 {
+    line-height: 5px;
+}
+
+.ht a {
+    text-decoration: none;
+    color: white;
+
+
+}
+.fa-solid:hover{
+   color: red;
+
+}
+/* chỉnh danh sách theo màu sắc */
+.custom-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* background-color: #00FF00; */
+    border: none;
+    position: relative;
+    outline: none; 
+    cursor: pointer;
+    margin-right: 20px ;
+}
+
+.custom-checkbox::before {
+    content: '\2713'; 
+    font-size: 12px;
+    color: white; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.custom-checkbox:checked::before {
+    opacity: 1;}
+#mausac label{
+    margin-right: 10px;
+}
+.table th{
+    cursor: pointer;
+}
+
+
+/* thẻ card */
+/* section */
+.a {
+    height: 150px;
+    width: 100%;
+}
+
+
+.card {
+    width: 280px;
+    height: 300px;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+    cursor: pointer;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+/*Image*/
+.card-avatar {
+    height: 100px;
+    width: 100px;
+    /* background: linear-gradient(to top, #f1e1c1 0%, #aa9487 100%); */
+    /* width: var(--size);
+    height: var(--size); */
+    border-radius: 50%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+    
+}
+
+.card-avatar img {
+    width: 170%;
+    height: 130%;
+    /* margin-top: -10px; */
+    transform: translate(-20%,-10%);
+    
+    /* border: 1px solid black; */
+
+
+}
+
+/*Card footer*/
+.card-social {
+    transform: translateY(200%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    opacity: 0;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+
+
+
+.card-social__item  {
+    display: block;
+    height: 20px;
+    width: 20px;
+    fill: #515F65;
+    cursor: pointer;
+    transition: fill 0.2s ease, transform 0.2s ease;
+    margin-bottom: -10px;
+    list-style: none;
+  
+
+}
+.fa-solid{
+    margin-left: -15px;
+
+}
+
+
+
+
+/*Text*/
+.card-title {
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.card-subtitle {
+    color: #859ba8;
+    font-size: 0.8em;
+}
+
+/*Hover*/
+.card:hover {
+    box-shadow: 0 8px 20px #23232333;
+}
+
+.card:hover .card-info {
+    transform: translateY(-5%);
+}
+
+.card:hover .card-social {
+    transform: translateY(100%);
+    opacity: 1;
+}
+
+.card-social__item svg:hover {
+    fill: #232323;
+    transform: scale(1.1);
+}
+
+.card-avatar:hover {
+    transform: scale(1.1);
+}
+
+/**/
+.navbar-nav li .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    right: -31px;
+    background-color: rgb(240, 234, 234);
+}
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}

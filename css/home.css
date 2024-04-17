@@ -1,0 +1,264 @@
+/* Nav */
+#menu ul{
+    
+    margin-left: -300px;
+    
+    }
+    #menu ul li a:hover{
+        
+        color: rgb(90, 125, 156);
+    }
+    #menu ul li a{
+        text-align: center;
+    }
+    nav .container-fluid {
+        padding: 10px;
+    }
+    nav .collapse{
+        justify-content: center;
+    }
+    .nav-item{
+        
+        width: 100px;
+    
+        
+    }
+    #soluong{
+        position: absolute;
+      top:40px;
+            right: 2px;
+        font-weight: bold;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        color:white;
+        background-color: red;
+        border-radius: 50%;
+    }
+    
+    
+    .nav1{
+        margin-bottom: -40px;
+        }
+        .navbar-collapse{
+            margin-bottom: -40px;
+        }
+        .gio{
+            padding-left: 10px;
+        }
+        .gio:hover{
+            color: red;
+        }
+    
+    
+/* section */
+.a {
+    height: 150px;
+    width: 100%;
+}
+
+
+.card {
+    width: 250px;
+    height: 280px;
+    background: #f5f5f5;
+    padding: 2rem 1.5rem;
+    transition: box-shadow .3s ease, transform .2s ease;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+/*Image*/
+.card-avatar {
+    height: 100px;
+    width: 100px;
+    /* background: linear-gradient(to top, #f1e1c1 0%, #aa9487 100%); */
+    /* width: var(--size);
+    height: var(--size); */
+    border-radius: 50%;
+    transition: transform .2s ease;
+    margin-bottom: 1rem;
+    
+}
+
+.card-avatar img {
+    width: 170%;
+    height: 130%;
+    /* margin-top: -10px; */
+    transform: translate(-20%,-10%);
+    
+    /* border: 1px solid black; */
+
+
+}
+
+/*Card footer*/
+.card-social {
+    transform: translateY(200%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    opacity: 0;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+
+
+
+.card-social__item  {
+    display: block;
+    height: 20px;
+    width: 20px;
+    fill: #515F65;
+    cursor: pointer;
+    transition: fill 0.2s ease, transform 0.2s ease;
+    margin-bottom: -10px;
+    list-style: none;
+  
+
+}
+.fa-solid{
+    margin-left: -15px;
+
+}
+
+
+
+
+/*Text*/
+.card-title {
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.card-subtitle {
+    color: #859ba8;
+    font-size: 0.8em;
+}
+
+/*Hover*/
+.card:hover {
+    box-shadow: 0 8px 20px #23232333;
+}
+
+.card:hover .card-info {
+    transform: translateY(-5%);
+}
+
+.card:hover .card-social {
+    transform: translateY(100%);
+    opacity: 1;
+}
+
+.card-social__item svg:hover {
+    fill: #232323;
+    transform: scale(1.1);
+}
+
+.card-avatar:hover {
+    transform: scale(1.1);
+}
+
+
+.dk1 {
+    margin-left: 25%;
+}
+
+.dk2 {
+    margin-right: 25%;
+}
+
+
+.time {
+    background-image: url(../IMG/c2.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    position: relative;
+
+
+}
+#clockdiv{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    border-radius: 10px;
+
+
+}
+
+.items{
+    
+    height: 100px;
+    width: 100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+
+
+}
+.items span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 12px;   
+    text-align: center;
+}
+.a1{
+    width: 50px;
+    height: 100px;
+    opacity: 0.2;
+    transition: 0.5s;
+}
+.a1:hover{
+    opacity: 1;
+}
+.a2{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+   
+}
+
+.week{
+    color: rgb(75, 67, 67);
+    text-decoration: none;
+
+}
+/* footer */
+.ft1{
+    line-height: 5px;
+}
+.ht a{
+    text-decoration: none;
+    color: white;
+
+}
+/**/
+.navbar-nav li .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    right: -31px;
+    background-color: rgb(240, 234, 234);
+}
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
+
+

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../CSS/bootstrap1.min.css">
+    <!-- <link rel="stylesheet" href="../CSS/all.min.css">     -->
+    <script src="https://kit.fontawesome.com/30945203f8.js" crossorigin="anonymous"></script>
+    <script src="../Js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/SignIn.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/SignIn.js"></script>
+    <link rel="shortcut icon" href="../IMG/logo.png" type="IMG/png" />
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav navbar-expand-xxl fixed-top  bg-dark">
+
+
+        <div class="container-fluid ">
+
+            <div class="bg-dark justify-content-end pt-1 d-flex  pr-5 nav1">
+
+                <a href="#"> <i class="fa-brands fa-facebook-f border rounded-circle  p-1 m-1"
+                        style="color: #ffffff;"></i></a>
+                <a href="#"> <i class="fa-brands fa-instagram border rounded-circle p-1 p-1 m-1"
+                        style="color: #ffffff;"></i></a>
+
+                <a href="#"> <i class="fa-brands fa-tiktok border rounded-circle p-1 p-1 m-1"
+                        style="color: #ffffff;"></i></a>
+                <a href="../HTML/SignIn.html"><button class="btn btn-dark text-white">sign up </button></a>
+                <a href="../HTML/login.html"> <button class="btn btn-dark text-white">log in </button></a>
+
+            </div>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span><i class="fa-solid fa-bars "></i></span>
+            </button>
+            <div class="collapse navbar-collapse " id="menu">
+                <a href="../HTML/Home.html"><img src="../IMG/snapedit_1712334576504.png" alt="" class="w-25 h-50"></a>
+
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item text-white"><a href="../HTML/Home.html" class="nav-link">Home Page</a></li>
+
+                    <li class="nav-item dropdown  bg-dark text-bg-secondary" id="store" style="position: relative;">
+                        <div class="dropdown ">
+                            <a href="#" class=" nav-link" data-bs-toggle="dropdown">Store</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../HTML/DSNam.html" class="dropdown-item nav-link">Men's Shoes</a> </li>
+                                <li><a href="../HTML/DSNu.html" class="dropdown-item nav-link">Women's Shoes</a> </li>
+                                <li><a href="../HTML/Sale.html" class="dropdown-item nav-link">Shoes <b style="color: red;"><i>SALE</i></b></a> </li>
+                                <li><a href="../HTML/accessories.html" class="dropdown-item nav-link">Accessories</a> </li>
+                            </ul>
+
+                        </div>
+
+                    </li>
+
+                    <li class="nav-item  bg-dark text-bg-secondary"><a href="../HTML/Suport.html" class="nav-link">Support</a></li>
+                    <li class="nav-item  bg-dark text-bg-secondary"><a href="../HTML/Blog.html" class="nav-link">Blog-NEWS</a></li>
+                    <li class="nav-item  bg-dark text-bg-secondary"><a href="../HTML/Aboutas.html" class="nav-link">About as</a></li>
+                    <li class="nav-item  bg-dark text-bg-secondary"><a href="../HTML/Contact.html" class="nav-link">Contact</a></li>
+                </ul>
+               
+                    <input type="search " class="form-control "
+                        style="width: 300px;height: 30px; border-radius: 5px; margin-right: 20px;" placeholder="Search">
+                    <button class="btn btn-dark">Search</button>
+                    <a href="../HTML/Cart.html"><button class="btn btn-dark text-white " style="position: relative;">Giỏ hàng <i
+                                class="fa-solid fa-cart-shopping gio"></i></button></a>
+                   
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </nav>
+    <section style="margin-top: 100px; padding-top: 30px; padding-bottom: 30px;">
+        <form action="" style="margin: auto;width: 40%;">
+            <h2 style="text-align: center;">ĐĂNG KÝ TÀI KHOẢN</h2>
+            <div class="mb-3">
+                <label for="tendn" class="form-label">Tên đăng nhập:</label>
+                <input type="text" name="" id="tendn" class="form-control" placeholder="" aria-describedby="helpId" />
+                <span id="enrrtendn">*</span>
+            </div>
+            <div class="mb-3">
+                <label for="matkhau" class="form-label">Mật khẩu:</label>
+                <input type="password" name="" id="matkhau" class="form-control" placeholder=""
+                    aria-describedby="helpId" />
+                <span id="enrrmk">*</span>
+            </div>
+            <div class="mb-3">
+                <label for="nlmatkhau" class="form-label">Nhập lại mật khẩu:</label>
+                <input type="password" name="" id="nlmatkhau" class="form-control" placeholder=""
+                    aria-describedby="helpId" />
+                <span id="enrrnlmk">*</span>
+            </div>
+            <h2 style="text-align: center;">THÔNG TIN CÁ NHÂN</h2>
+            <div class="mb-3">
+                <label for="hoten" class="form-label">Họ và Tên:</label>
+                <input type="text" name="" id="hoten" class="form-control" placeholder="" aria-describedby="helpId" />
+                <span id="enrrhoten">*</span>
+            </div>
+            <div class="mb-3">
+                <label for="ngaysinh" class="form-label">Ngày Sinh:</label>
+                <input type="date" name="" id="ngaysinh" class="form-control" placeholder=""
+                    aria-describedby="helpId" />
+                <span id="enrrngaysinh">*</span>
+            </div>
+            <div class="mb-3">
+                <label for="gioitinh" class="form-label">Giới Tính:</label>
+                <input type="radio" name="gioitinh" id="nam"  placeholder=""
+                    aria-describedby="helpId" /><label for="nam">Nam</label>
+                <input type="radio" name="gioitinh" id="nu"  placeholder=""
+                    aria-describedby="helpId" /><label for="nu">Nữ</label>
+
+            </div>
+            <div class="mb-3">
+                <label for="diachi" class="form-label">Địa Chỉ:</label>
+                <input type="text" name="" id="diachi" class="form-control" placeholder="" aria-describedby="helpId" />
+                            </div>
+            <div class="mb-3">
+                <label for="sdt" class="form-label">Điện Thoại:</label>
+                <input type="text" name="" id="sdt" class="form-control" placeholder="" aria-describedby="helpId" />
+                <span id="enrrsdt">*</span>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" name="" id="email" class="form-control" placeholder="" aria-describedby="helpId" />
+                <span id="enrremail">*</span>
+            </div>
+            <a href="" id="submit"><input type="submit" value="Sign Up" style="border-radius: 10px; width: 575px;height: 50px; color: white; font-weight: bold;background-color: black; border: none;"></a>
+        </form>
+    </section>
+    <footer class="bg-dark text-white pt-2">
+        <div class="row mt-5">
+            <div class="col-2"></div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <h3>Abouts</h3>
+                        <p>Hãy mang những giấc mơ của bạn lên đôi chân để dẫn lối giấc mơ đó thành hiện thực</p>
+                    </div>
+                    <div class="col">
+                        <h3>Newsletter</h3>
+                        <p>Luôn cập nhật chiều rộng mới nhất của chúng tôi</p>
+                        <input type="email" placeholder="Email" style="float: left;height: 30px;"><button
+                            class="bg-white " style="width: 30px;height: 30px; float:left;"><i
+                                class="fa-solid fa-arrow-right" style="margin: auto;"></i></button>
+                    </div>
+                    <div class="col ht">
+                        <h3>HỖ TRỢ KHÁCH HÀNG</h3>
+                        <a href="../HTML/Suport.html">Chính sách bảo hành và đổi trả</a><br>
+                        <a href="../HTML/Suport.html">Hướng dẫn chọn size</a><br>
+                        <a href="../HTML/Suport.html">Chính sách vận chuyển</a><br>
+                        <a href="../HTML/Suport.html">Chính sách bảo mật</a><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-11">
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-5 ft1">
+                        <h3>THÔNG TIN LIÊN HỆ</h3>
+                        <p>Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp.</p>
+                        <p>Hotline: 034.363.2524</p>
+                        <p>Email: ttstore@saigonsneaker.com</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-2"></div>
+
+
+        </div>
+
+
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+#menu ul{
+    
+    margin-left: -300px;
+    
+    }
+    #menu ul li a:hover{
+        
+        color: rgb(90, 125, 156);
+    }
+    #menu ul li a{
+        text-align: center;
+    }
+    nav container-fluid {
+        padding: 10px;
+    }
+    nav .collapse{
+        justify-content: center;
+    }
+    .nav-item{
+        
+        width: 100px;
+    
+        
+    }
+    #soluong{
+        position: absolute;
+        top: 100;
+        right: 10px;        
+        font-weight: bold;
+        color: red;
+    }
+    
+    
+    .nav1{
+        margin-bottom: -40px;
+        }
+        .navbar-collapse{
+            margin-bottom: -40px;
+        }
+
+        #sec1{
+        background-image: url(../IMG/pexels-mnz-1598505.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+       
+        
+    }
+    .gt1{
+        padding-top: 30px;
+        width: 500px;
+        padding-right:80px ;
+        margin-left: -150px;
+        border-right: 2px solid turquoise;
+        position: relative;
+        
+    }
+    .gt2{
+        margin-left: 100px;
+        padding-top: 50px;
+
+    }
+    .nam{
+        position: absolute;
+        top: 30px;
+        left: 420px;
+        color: rgb(62, 101, 88);
+        font-weight: bold;
+        font-size: 23px;
+    }
+    .gt3{
+        width: 500px;
+        margin-left: -150px;
+        border-right: 2px solid turquoise;
+        padding-top: 50px;
+
+    }
+    .gt4{
+        margin-left: 100px;
+        position: relative;
+        margin-top: 30px;
+    }
+    .nam1{
+        color: rgb(62, 101, 88);
+        font-weight: bold;
+        font-size: 23px;
+        position: absolute;
+        left: -100px;
+        top: -20px;
+        
+    }
+    .ft1{
+        line-height: 5px;
+    }
+    .ht a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    /**/
+.navbar-nav li .dropdown-menu{
+    position: absolute;
+    top: 100%;
+    right: -31px;
+    background-color: rgb(240, 234, 234);
+}
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+}
